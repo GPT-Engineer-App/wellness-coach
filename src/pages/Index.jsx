@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <Box>
       {/* Navigation */}
-      <Flex as="nav" align="center" justify="space-between" wrap="wrap" padding="1.5rem" bg="brand.500" color="white">
+      <Flex as="nav" align="center" justify="space-between" wrap="wrap" padding="1.5rem" bg="brand.400" color="white">
         <Flex align="center" mr={5}>
           <Icon as={FaLeaf} h={6} w={6} mr={2} />
           <Heading as="h1" size="lg" letterSpacing={"-.1rem"}>
@@ -31,7 +31,7 @@ const Index = () => {
           <Text fontSize="xl" textAlign="center">
             Discover the path to optimal health and well-being through our holistic approach.
           </Text>
-          <Button colorScheme="brand" size="lg">
+          <Button colorScheme="brand" size="lg" bg="brand.600" _hover={{ bg: "brand.700" }}>
             Get Started
           </Button>
         </VStack>
@@ -47,7 +47,9 @@ const Index = () => {
             <Text fontSize="lg" mb={6}>
               Hi, I'm Sarah, a certified holistic health coach passionate about helping individuals achieve optimal wellness. With years of experience and a deep understanding of holistic principles, I guide my clients towards a balanced and fulfilling life.
             </Text>
-            <Button colorScheme="brand">Learn More</Button>
+            <Button colorScheme="brand" bg="brand.600" _hover={{ bg: "brand.700" }}>
+              Learn More
+            </Button>
           </Box>
           <Box flex={1}>
             <Image src="https://images.unsplash.com/photo-1488751045188-3c55bbf9a3fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMG9mJTIwYSUyMHNtaWxpbmclMjBoZWFsdGglMjBjb2FjaHxlbnwwfHx8fDE3MTEwNjA0OTJ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Health Coach" borderRadius="md" />
@@ -63,22 +65,22 @@ const Index = () => {
           </Heading>
           <Stack direction={{ base: "column", md: "row" }} spacing={8}>
             <Box bg="white" p={6} borderRadius="md" boxShadow="md" textAlign="center">
-              <Icon as={FaHeart} h={12} w={12} color="brand.500" mb={4} />
+              <Icon as={FaHeart} h={12} w={12} color="brand.600" mb={4} />
               <Heading as="h3" size="lg" mb={4}>
                 Basic Package
               </Heading>
               <Text fontSize="lg">Get started with a personalized wellness plan.</Text>
-              <Button colorScheme="brand" mt={6}>
+              <Button colorScheme="brand" mt={6} bg="brand.600" _hover={{ bg: "brand.700" }}>
                 Learn More
               </Button>
             </Box>
             <Box bg="white" p={6} borderRadius="md" boxShadow="md" textAlign="center">
-              <Icon as={FaLeaf} h={12} w={12} color="brand.500" mb={4} />
+              <Icon as={FaLeaf} h={12} w={12} color="brand.600" mb={4} />
               <Heading as="h3" size="lg" mb={4}>
                 Premium Package
               </Heading>
               <Text fontSize="lg">Dive deeper into holistic wellness with advanced coaching.</Text>
-              <Button colorScheme="brand" mt={6}>
+              <Button colorScheme="brand" mt={6} bg="brand.600" _hover={{ bg: "brand.700" }}>
                 Learn More
               </Button>
             </Box>
@@ -99,7 +101,7 @@ const Index = () => {
                 The Benefits of a Plant-Based Diet
               </Heading>
               <Text fontSize="lg">Discover the incredible health benefits of adopting a plant-based lifestyle.</Text>
-              <Link href="#" color="brand.500" mt={4} display="block">
+              <Link href="#" color="brand.600" mt={4} display="block">
                 Read More
               </Link>
             </Box>
@@ -109,7 +111,7 @@ const Index = () => {
                 Mindfulness Meditation for Stress Relief
               </Heading>
               <Text fontSize="lg">Learn effective mindfulness techniques to manage stress and find inner peace.</Text>
-              <Link href="#" color="brand.500" mt={4} display="block">
+              <Link href="#" color="brand.600" mt={4} display="block">
                 Read More
               </Link>
             </Box>
@@ -137,7 +139,7 @@ const Index = () => {
                 <FormLabel>Message</FormLabel>
                 <Textarea />
               </FormControl>
-              <Button colorScheme="brand" size="lg">
+              <Button colorScheme="brand" size="lg" bg="brand.600" _hover={{ bg: "brand.700" }}>
                 Send Message
               </Button>
             </Stack>
@@ -154,7 +156,7 @@ const Index = () => {
       </Box>
 
       {/* Footer */}
-      <Box bg="brand.500" py={10} color="white" textAlign="center">
+      <Box bg="brand.400" py={10} color="white" textAlign="center">
         <Text fontSize="lg">&copy; 2023 Holistic Wellness. All rights reserved.</Text>
       </Box>
     </Box>
