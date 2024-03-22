@@ -1,7 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
 import Blog from "./pages/Blog.jsx";
-import AboutMe from "./pages/AboutMe.jsx";
+// Remove the import for AboutMe component
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Index />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/about" element={<AboutMe />} />
+        // Remove the route for AboutMe component
       </Routes>
     </Router>
   );

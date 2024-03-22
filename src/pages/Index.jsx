@@ -15,7 +15,7 @@ const Index = () => {
         </Flex>
         <Stack direction="row" spacing={4} align="center">
           <Link href="/">Home</Link>
-          <Link href="/about">About Me</Link>
+          <Link href="#about">About</Link>
           <Link href="#services">Services</Link>
           <Link href="/blog">Blog</Link>
           <Link href="#contact">Contact</Link>
@@ -42,14 +42,17 @@ const Index = () => {
         <Flex maxW="6xl" mx="auto" px={6} direction={{ base: "column", md: "row" }}>
           <Box flex={1} mr={{ md: 10 }}>
             <Heading as="h2" size="xl" mb={4}>
-              About Me
+              About Sarah
             </Heading>
             <Text fontSize="lg" mb={6}>
-              Hi, I'm Sarah, a certified holistic health coach passionate about helping individuals achieve optimal wellness. With years of experience and a deep understanding of holistic principles, I guide my clients towards a balanced and fulfilling life.
+              Hi, I'm Sarah, a certified holistic health coach with a passion for helping individuals achieve optimal wellness. My journey began when I struggled with chronic health issues and discovered the transformative power of holistic living.
             </Text>
-            <Button colorScheme="brand" bg="brand.600" _hover={{ bg: "brand.700" }}>
-              Learn More
-            </Button>
+            <Text fontSize="lg" mb={6}>
+              Through years of education and personal experience, I have developed a deep understanding of how nutrition, mindfulness, and lifestyle choices contribute to overall well-being. My mission is to empower others to take control of their health and live their best lives.
+            </Text>
+            <Text fontSize="lg" mb={6}>
+              As your health coach, I will guide you through personalized wellness plans, provide support and accountability, and help you cultivate sustainable habits for lasting change. Together, we will unlock your full potential and create a life of vitality and joy.
+            </Text>
           </Box>
           <Box flex={1}>
             <Image src="https://images.unsplash.com/photo-1488751045188-3c55bbf9a3fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMG9mJTIwYSUyMHNtaWxpbmclMjBoZWFsdGglMjBjb2FjaHxlbnwwfHx8fDE3MTEwNjA0OTJ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Health Coach" borderRadius="md" />
