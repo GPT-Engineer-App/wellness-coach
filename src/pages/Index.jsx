@@ -14,8 +14,8 @@ const Index = () => {
           </Heading>
         </Flex>
         <Stack direction="row" spacing={4} align="center">
-          <Link href="#home">Home</Link>
-          <Link href="#about">About</Link>
+          <Link href="/">Home</Link>
+          <Link href="/about">About Me</Link>
           <Link href="#services">Services</Link>
           <Link href="/blog">Blog</Link>
           <Link href="#contact">Contact</Link>
